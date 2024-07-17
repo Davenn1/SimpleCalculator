@@ -1,0 +1,204 @@
+*{
+    margin:0;
+    padding:0;
+    text-align:left;
+}
+.asterisk{
+    color:red;
+}
+body{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.form-container{
+    width:550px;
+    height:430px;
+    background:#141414;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    border-radius:8px;
+    border:1px white solid;
+}
+.form-title-container{
+    width:90%;
+    height:50px;
+    display:flex;
+    align-items:center;
+    border-bottom:1px solid grey;
+    padding-top:10px;
+}
+.form-title-container>h1{
+    font-size:1.7em;
+    padding-left:20px;
+    
+}
+.form-data-container{
+    display:flex;
+    width:100%;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    margin-top:25px;
+}
+.form-name-container{
+    width:100%;
+}
+.form-left, .form-right{
+    width:45%;
+    height:275px;
+}
+.form-name-title-container{
+    text-align:left;
+}
+.form-name-text-container{
+    display:flex;
+    align-items:center;
+    flex-direction:row;
+}
+.form-name-text-container > div{
+    width:55%;
+    height:30px;
+    flex-direction:column;
+}
+.form-name-text-container > div > input{
+    width:90%;
+    height:30px;
+    border: grey 1px solid;
+    background:none;
+    border-radius:5px;
+}
+.form-name-text-container > div > input:focus{
+    outline:1px solid orange;
+    border:none;
+
+}
+.last{
+    text-align:right;
+}
+.last-text{
+    transform:translateX(10px);
+}
+.form-email-container{
+    margin-top:35px;
+}
+.form-email-container>input{
+    width:100%;
+    height:30px;
+    border:grey 1px solid;
+    background:none;
+    border-radius:5px;
+}
+.form-email-container>input:focus{
+    outline:1px solid orange;
+    border:none;
+
+}
+
+.form-topic-container{
+    margin-top:15px;
+}
+.form-topic-text-container{
+    width:100%;
+    height:80px;
+    border:1px dashed gray;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    font-size:0.8em;
+}
+.form-topic-text-container>div{
+    margin-left:10px;
+}
+.form-topic-text-container>div>div>input{
+    width:10px;
+    height:10px;
+}
+.form-topic-text-container>div>div>input:checked{
+    background-color:orange;
+}
+.form-topic-text-container>div>div>span{
+    margin-left:10px;
+}
+
+.form-description-container{
+    width:100%;
+    height:100%;
+}
+.optional{
+    margin-left:3px;
+    font-size:0.7rem;
+    color:grey;
+}
+.form-description-container>input{
+    width:100%;
+    height:85.5%;
+    background:none;
+    border:solid 1px grey;
+    text-align:left;
+    border-radius:5px;
+}
+.form-description-container>input:focus{
+    border:none;
+    outline:1px solid orange;
+}
+
+.send-button-container{
+    width:100%;
+    height:50px;
+    display:flex;
+    justify-content:flex-end;
+    font-size:1.3em;
+}
+.send-button-container>div{
+    margin-right:20px;
+    width:150px;
+    background:grey;
+    border:none;
+    border-radius: 25px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:1em;
+}
+.send-button-container>div>button{
+    width:100%;
+    height:100%;
+    background:orange;
+    border:none;
+    border-radius: 25px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:1.0em;
+    text-align: center;
+}
+.ticket-container{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+}
+.ticket-container>div{
+    margin-top:120px;
+    width:90%;
+    justify-content:center;
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+}
+.ticket-container>div>h1{
+    font-size:1.3em;
+    color:orange;
+    text-align:center;
+}
+.ticket-container>div>p{
+    font-size:1.0em;
+    margin-top:20px;
+    color:grey;
+    text-align:center;
+}
